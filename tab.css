@@ -1,0 +1,185 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+
+/* nav */
+
+nav ul{
+    
+   display: none;
+   margin: auto;
+   flex-direction: column;
+   position:absolute;
+   top: 100px;
+   width: 100%;
+   text-align: center;
+}
+ 
+
+nav ul li{
+   
+   width: 100%;
+   border-bottom: 2px solid white;
+   border-top: 2px solid white;    
+   background: rgb(44, 84, 97);
+}
+nav ul li a{
+   font-size: 25px;
+   color: white;
+   
+}
+#navbutton{
+   display: none;
+   margin:0;
+   font-size: 16px;
+   padding: 0;
+   
+   max-width: 100px;
+}
+nav {
+   
+   max-width: 90%;
+   margin: 30px auto;
+   display: flex;
+   justify-content: space-between;
+}
+#topname{
+   
+   font-size: 1.4rem;
+   color: #c5c5c5;
+}
+nav img{ 
+   display: block;
+}
+
+
+/* home */
+#home{
+    
+   max-width: 90%;
+   margin: 5px auto;
+}
+#home h1{
+   
+   margin-bottom: 0;
+   font-size: 4rem;
+   
+   font-family: 'Prata', serif;
+  color: rgb(238, 236, 236);
+}
+#home p{
+   font-size: 1.2rem;
+   margin: 10px 0 0 0 ;
+}
+
+
+
+
+/* companies */
+#companies {
+    
+   max-width: 80%;
+   margin: 0rem auto;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+}
+#companies img {
+   
+   padding: 5px 10px;
+   margin-bottom: 20px;
+   width: 150px;
+}
+
+
+
+
+
+
+/* tiles */
+#tiles {
+  
+   display: flex;
+   max-width: 90%;
+   margin: 80px auto;
+   flex-direction: column;
+   align-items: center;
+}
+#tiles div{
+   
+   width: 100%;
+}
+#tiles div img {
+   width: 100%;
+}
+#tiles div h6{
+   font-size: 50px;
+   
+   margin: 10px 0;
+   font-weight: lighter;
+}
+#tiles div p{
+   
+   font-size: 25px;
+   margin-bottom: 60px;
+}
+
+
+/* about */
+#about>div {
+   max-width: 90%;
+   margin: 5rem auto;
+   
+  
+   margin-top: 0;
+   display: block;
+}
+#about h6{
+   
+   font-size: 45px;
+}
+#about p{
+   font-size: 19px;
+   margin-top: 30px;
+   padding: 0;
+}
+#about-right{
+  
+   margin: 0;
+}
+#about-left p:first-of-type{
+   margin-top: 0px;
+}
+
+
+/* contact */
+#contact {
+    
+   max-width: 90%;
+  margin: 45px auto;
+}
+#contact p:first-child {
+  font-size: 45px;
+  font-family: 'Prata', serif;
+  font-weight: lighter;
+}
+#contact p:nth-child(2) {
+  font-size: 1.5rem;
+  width: 89%;
+  font-family: 'Inter', sans-serif;
+}
+#contact button{
+  padding: 2px;
+  background: yellow;
+  
+  height: 50px;
+  margin-top: 20px;
+  font-family: 'Prata', serif;
+  width: 120px;
+  cursor: pointer;
+}  
+
+
